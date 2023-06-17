@@ -126,4 +126,13 @@ export default function App() {
   );
 }
 
+// refactor logic into components
+// add conditional to 'points' and 'comments' to display without the 's' if '1'
+// add functionality to comments to show comments, author to show all articles by author
+// something buggy with input field/search - pg is loading - need a new state?
+// use settimeout to create a delay to be able to work on spinner
+// understand how to use a global state manager - start with redux to understand logic, then can use zustand once logic makes sense (store custom hook)
+// https://redux.js.org/
+// https://docs.pmnd.rs/zustand/getting-started/introduction
+
 

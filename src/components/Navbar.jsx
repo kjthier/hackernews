@@ -1,5 +1,4 @@
 export default function Navbar({handleSearch, setQuery, searchQuery, handleKeyDown}) {
-
  
     return (
         <nav>
