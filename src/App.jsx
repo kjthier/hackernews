@@ -55,7 +55,7 @@ export default function App() {
   const handleSearch = async () => {
     try {
       const response = await fetch(
-        `http://hn.algolia.com/api/v1/search?query=${searchQuery}&hitsPerPage=100`    
+        `https://hn.algolia.com/api/v1/search?query=${searchQuery}&hitsPerPage=100`    
       )
       const data = await response.json();
       setNews(data.hits);
